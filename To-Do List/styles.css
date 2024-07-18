@@ -1,0 +1,52 @@
+body{
+    margin :0;
+    background-color: #0fd1ef;
+}
+
+::placeholder {
+    color: #FFFF00;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12-18 */
+    color: #FFFF00;
+  }
+
+h1{
+    color: #fb97ad;
+    text-align: center;
+}
+
+div{
+    margin: 16px;
+    padding: 8px;
+    background-color: #EBF4FA;
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.7);
+    border: none;
+    border-radius: 25px;
+}
+
+#container{
+    margin: 24px;
+    padding: 24px;
+    color: #862ef2;
+    font-size: 25px;
+    background-color: #EE9A4D;
+    text-align: center;
+}
+
+#input , #dob {
+    color: #FFFF00;
+    background-color: #04041c;
+    border: none;
+    border-bottom: 1px solid #616091;
+    border-left: 1px solid #616091;
+}
+
+
+
+#btn{
+    border: none;
+    border-radius: 8px;
+    background-color: #b4b3d8;
+}
